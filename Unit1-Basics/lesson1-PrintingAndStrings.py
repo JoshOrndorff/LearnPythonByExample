@@ -24,17 +24,22 @@ print()
 
 # We can also join two strings together to make one big string. This process is
 # known as concatenation and uses the + operator.
-
 bigString = "My name is" + myName
 print(bigString)
 print()
 
+
+
+
 # ---------------- Exercises -----------------
 # 1. Modify line 4 so that is prints a exclaimation point after the text:
 #    Hello World!
-#
+
 # 2. Modify line 12 so that the string contains your name instead of my name.
-#
+
 # 3. Modify line 24 so that it prints a space between "is" and your name.
-#
+
+# 4. On line 31 make a new string variable containing whatever content you want.
+
+# 5. On line 32 make print your new string variable to the screen
 
