@@ -65,3 +65,7 @@ print(message)
 
 # 3. There is another #TODO. Can you make the computer play better strategy?
 
+# 4. What if there is only 2 marbles left, and the user tries to take 3? Can
+#    we make the program handle this situation? One solution is to consider the
+#    user a cheater and make him lose. A more difficult solution is to tell him
+#    there are not 3 marbles left and let him try again.
