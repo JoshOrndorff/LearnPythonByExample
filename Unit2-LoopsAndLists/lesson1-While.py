@@ -33,11 +33,11 @@ while userInput != "done":
 print(combinedText)
 
 # ---------------- Exercises -----------------
-# 1. Change the initial value of the string on line 10.
+# 1. Change the initial value of the string on line 14.
 #    Predict what will be different on the lines below. (Don't forget to comment
 #    them so they don't affect your program.)
 
-# 2. Change the initial value of the string on line 4.
+# 2. Change the initial value of the string on line 8.
 #    Predict what will be different on the lines below. (Don't forget to comment
 #    them so they don't affect your program.)
 
@@ -46,7 +46,7 @@ print(combinedText)
 #    "done" there is no way to do it. Modify line 20 so that entering a blank
 #    line will end the loop instead of the word "done".
 
-# 4. Change line 25 to:
+# 4. Change line 29 to:
 #    combinedText += userInput
 #    This += operator is a shorthand for the full expression that we previously
 #    used. The shorthand can also be used in math. In fact, +=, -=, /=, *= are
