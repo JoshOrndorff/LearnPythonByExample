@@ -12,7 +12,7 @@ output = "My name is " + name
 print(output)
 
 # But it isn't possible to combine a string with an int the same way.
-# Uncomment to following lines to see the problem.
+# Uncomment lines 16 - 17 to see the problem.
 #output = "My lucky number is " + luckynumber
 #print(output)
 
@@ -47,4 +47,7 @@ print(output)
 #    isn't always the best choice, in simple cases, it is nice to be concise.
 #    Add line 39 to make the program print "Orndorff's lucky number is 5."
 #    Be sure to use a format string.
+
+# 3. Modify lines 6 - 8 so that it asks the user for the values instead of
+#    having them "hard-coded". Remember, not all the data is the same type.
 
