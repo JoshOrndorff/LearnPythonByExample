@@ -46,9 +46,9 @@ while marblesLeft != 0:
     # And again, actually subtract the marbles the computer took.
     marblesLeft = marblesLeft - computerTakes
   
-  # Test whether the computer took the last marble.
-  if marblesLeft == 0:
-    message = "Horray! You win!"
+    # Test whether the computer took the last marble.
+    if marblesLeft == 0:
+      message = "Horray! You win!"
     
 # Finally, after the loop ends, we tell the user the outcome of the game.
 print(message)
