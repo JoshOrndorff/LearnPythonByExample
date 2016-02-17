@@ -28,7 +28,9 @@ while userInput != "done":
   # as for actual math addition.
   combinedText = combinedText + userInput
   
-
+# Now the loop has ended. You can tell because these lines are un-indented.
+# Since we are done taking input, we'll print the output to the screen
+print(combinedText)
 
 # ---------------- Exercises -----------------
 # 1. Change the initial value of the string on line 10.
