@@ -4,8 +4,6 @@ results, change anything and everything you are curious about.
 
 Written by:
 Josh Orndorff
-admin@joshorndorff.com
-www.joshorndorff.com
 
 This does not aim to be an exhaustive tour of everything there is to know about
 python3, but rather a tour of the most common and important features of the
