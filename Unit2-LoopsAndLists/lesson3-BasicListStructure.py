@@ -8,30 +8,28 @@ animals = ["cat", "dog", "fish", "three-toed sloth"]
 # We can print lists like any other data type. (Although it doesn't look pretty)
 print("The animals are: ")
 print(animals)
-print()
+input("Press enter to continue")
 
 # We can also print individual elements in a list by referencing their index.
 print("The third animal is: ")
-print(animlas[3])
-print()
+print(animals[3])
+input("Press enter to continue")
 
 # But be careful because the indicies start at 0.
 print("The zeroth animal is: " + animals[0])
-print()
+input("Press enter to continue")
 
 # If you enter too high of an index, you will get a pretty helpful error.
 # Uncomment the following line to see the problem.
 #print("The tenth animal is: " + animals[10])
 
-
-
-
 # You can also access elements from the end of the list with negative numbers.
 print("The last animal is: " + animals[-1])
-print()
+input("Press enter to continue")
 
 # Like strings, lists have a length and work with the len() function.
 print("There are {} animals.".format(len(animals)))
+input("Press enter to continue")
 
 
 
@@ -41,9 +39,9 @@ print("There are {} animals.".format(len(animals)))
 newAnimal = input("Tell me a new animal: ")
 animals.append(newAnimal)
 
-
 # And we can show that the list is longer now.
 print("Now the animals are: {}".format(animals))
+input("Press enter to continue")
 
 
 
@@ -52,6 +50,7 @@ print("Now the animals are: {}".format(animals))
 animals.remove("cat")
 print("I've removed the cat.")
 print("Now the animals are: {}".format(animals))
+input("Press enter to continue")
 
 
 
@@ -67,14 +66,14 @@ print("The sorted animals are:")
 print(animals)
 
 # ---------------- Exercises -----------------
-# 1. On line 43. Add "dinosaur" to the list of animals, then on line 34
+# 1. On line 46. Add "dinosaur" to the list of animals, then on line 47
 #    print the entire list of animals.
 
-# 2. Modify line 43 so that it inserts dinosaur in the middle of the list
+# 2. Modify line 46 so that it inserts dinosaur in the middle of the list
 #    instead of at the end. You will need to use the insert method like this:
 #    nameOfList.insert(indexToInsertBefore, "Thing to insert")
 
-# 3. We saw how to remove "cat" from the list on line 52. But what happens when
+# 3. We saw how to remove "cat" from the list on line 51. But what happens when
 #    "cat" appears in the list twice. Run the program again and when it asks you
 #    to give a new animal, tell it "cat". Now what happens when we remove "cat"?
 #    Can you think of any problems that might occur?
