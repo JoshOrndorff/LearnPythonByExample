@@ -21,7 +21,10 @@ def is_square(testNumber):
     # If the root squared gives the testNumber exactly, then it is a square.
     if possibleRoot ** 2 == testNumber:
       return True
-      
+            
+    # Try the next possible Root
+    possibleRoot += 1
+  
   # We made it through the loop without returning, so testNumber isn't square.
   return False
   
