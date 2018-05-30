@@ -43,7 +43,7 @@ print_list(sports, 5)
 print()
 
 # Now let's try to print the list in caps, and make the numbering start at 7.
-# (NOTE: The caps feature won't work until you write it -- see exercise ??)
+# (NOTE: The caps feature won't work until you write it -- see exercise 1)
 print("All caps, start numbering at 7.")
 print_list(sports, 7, True)
 
@@ -78,7 +78,9 @@ print()
 #
 #    You can decide what a good default value for stepSize is.
 
-
+# 4. All these sports are making me tired. Let's relax with some TV. Call the
+#    function one more time around lines 58-60 so it prints three of your
+#    favorite TV shows numbering them 2, 5, 8.
 
 
 
