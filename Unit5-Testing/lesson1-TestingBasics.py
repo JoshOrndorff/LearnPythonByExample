@@ -16,8 +16,8 @@ def is_square(testNumber):
     if possibleRoot ** 2 == testNumber:
       return True
       
-  # Try the next possible Root
-  possibleRoot += 1
+    # Try the next possible Root
+    possibleRoot += 1
       
   # We made it through the loop without returning, so testNumber isn't square.
   
