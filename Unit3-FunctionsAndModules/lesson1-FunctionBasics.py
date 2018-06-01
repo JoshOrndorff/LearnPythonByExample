@@ -29,7 +29,7 @@ def double_number(originalNumber):
 
 def tripple_number():
   """
-  
+
   """
   #TODO Complete this function
 
@@ -85,7 +85,7 @@ print(double_number)
 #    written, call it near line 72 to make sure it works
 
 # 4. On lines 51-52 we learned that parameters don't have to be named (although
-#    they certainly may be. On lines 57-58 we learned that results don't have to
+#    they certainly may). On lines 57-58 we learned that results don't have to
 #    be named (although they too may be). Modify your call to tripple_number on
 #    line 72 so that it combines both of these techniques. The result should be
 #    a one-liner.
