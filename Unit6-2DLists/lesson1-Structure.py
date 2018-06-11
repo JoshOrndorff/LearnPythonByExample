@@ -53,7 +53,7 @@ grid.append(newRow)
 #    common to do that in one step. Replace lines 24 and 25 with a one-liner
 #    that performs the same task.
 
-# 2. ADVANCED: Adding a row to the grid was relatively easy. Adding a column is
+# 3. ADVANCED: Adding a row to the grid was relatively easy. Adding a column is
 #    is also possible, but it means adding an item to each row that is already
 #    in the grid. Starting around line 40, add a fourth column of all 0s to
 #    the grid. When you're done the grid should look like this.
